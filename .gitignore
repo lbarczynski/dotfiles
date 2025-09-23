@@ -16,3 +16,8 @@
 .config/micro/*
 !.config/micro/bindings.json
 !.config/micro/settings.json
+
+# ssh
+!.ssh
+.ssh/*
+!.ssh/config
