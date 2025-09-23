@@ -26,7 +26,8 @@ This setup is primarily configured for macOS and Linux systems. It includes conf
 
 ## Installation
 
-*TODO*
+1. Checkout this repository to your `$HOME` directory
+1. Install required packages with `make install`
 
 ## Repository structure
 

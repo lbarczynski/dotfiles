@@ -1,5 +1,9 @@
+# hide all by default (home directory)
 *
+
+# additional files
 !README.md
+!Makefile
 
 !/.config/
 
