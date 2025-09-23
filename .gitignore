@@ -9,7 +9,8 @@
 !.gitconfig
 
 # wezterm
-!.wezterm.lua
+!.config/wezterm
+!.config/wezterm/*
 
 # micro editor
 !.config/micro
