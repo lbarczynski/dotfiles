@@ -1,8 +1,12 @@
 *
+!README.md
+
 !.config
 .config/*
+
+# git
 !.gitignore
-!README.md
+!.gitconfig
 
 # wezterm
 !.wezterm.lua
