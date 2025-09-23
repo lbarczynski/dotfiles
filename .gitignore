@@ -1,24 +1,21 @@
 *
 !README.md
 
-!.config
-.config/*
+!/.config/
 
 # git
 !.gitignore
 !.gitconfig
 
 # wezterm
-!.config/wezterm
-!.config/wezterm/*
+!/.config/wezterm/
+!/.config/wezterm/**
 
 # micro editor
-!.config/micro
-.config/micro/*
-!.config/micro/bindings.json
-!.config/micro/settings.json
+!/.config/micro/
+!/.config/micro/bindings.json
+!/.config/micro/settings.json
 
 # ssh
-!.ssh
-.ssh/*
-!.ssh/config
+!/.ssh
+!/.ssh/config
