@@ -27,7 +27,24 @@ This setup is primarily configured for macOS and Linux systems. It includes conf
 ## Installation
 
 1. Checkout this repository to your `$HOME` directory
+	* Clone as bare repository: `git clone --bare <git-repo-url> $HOME/.dotfiles`
+	* Setup alias in `.zshrc` file: `alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'`
+	* Checkout files `dotfiles checkout`
+	* Hide untracked files `dotfiles config --local status.showUntrackedFiles no`
 1. Install required packages with `make install`
+
+### Troubleshooting
+
+#### Files already exists in home directory
+
+In case of error `error: The following untracked working tree files would be overwritten by checkout` during checkout, 
+make a backup of these files first:
+
+```sh
+$ mkdir -p .dotfiles-backup && \
+    dotfiles checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
+    xargs -I{} mv {} .dotfiles-backup/{}
+```
 
 ## Repository structure
 
