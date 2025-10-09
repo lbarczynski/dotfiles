@@ -1,0 +1,45 @@
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/themes/ubuntu.toml"]
+
+[window]
+title = "Terminal"
+dynamic_title = true
+decorations = "Full"
+decorations_theme_variant = "Dark" # use system default
+opacity = 1
+position = { x = 0, y = 0 }
+startup_mode = "Windowed"
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 0, y = 0 }
+dynamic_padding = false
+
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Extrabold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Extrabold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+
