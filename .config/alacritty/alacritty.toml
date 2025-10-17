@@ -14,7 +14,6 @@ dimensions = { columns = 120, lines = 40 }
 padding = { x = 0, y = 0 }
 dynamic_padding = false
 
-
 [font]
 size = 12.0
 
@@ -42,4 +41,10 @@ y = 0
 history = 10000
 multiplier = 3
 
-
+[keyboard]
+bindings = [
+	{ key = "c", mods = "Alt", action = "Copy" },
+	{ key = "v", mods = "Alt", action = "Paste" },
+	{ key = "T", mods = "Control|Shift", action = "CreateNewWindow" },
+	{ key = "W", mods = "Control|Shift", action = "Quit" },
+]
